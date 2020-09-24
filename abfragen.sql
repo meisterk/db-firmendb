@@ -1,7 +1,7 @@
 --- die Vornamen aller Mitarbeiter der Firma "GBS"
 select vorname
 from mitarbeiter
-    join firma on firma_id = firma.id
+    join firma on firma.id = firma_id
 where firma.name = "GBS"
 
 --- die Nachnamen aller Mitarbeiter im Team "DB"
